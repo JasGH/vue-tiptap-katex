@@ -1,6 +1,8 @@
 import { Node } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-2'
+// import { VueNodeViewRenderer } from '@tiptap/vue-2'
 import TiptapInteractivePoem from './TiptapInteractivePoem.vue';
+import { VueNodeViewRenderer } from '@/allTiptapExstensions'
+
 
 export default Node.create({
     name: 'TiptapInteractivePoem',

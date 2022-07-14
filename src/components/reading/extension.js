@@ -1,5 +1,6 @@
 import { Node } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-2'
+// import { VueNodeViewRenderer } from '@tiptap/vue-2'
+import { VueNodeViewRenderer } from '@/allTiptapExstensions'
 import TiptapInteractiveReading from './TiptapInteractiveReading';
 
 export default Node.create({
